@@ -1,0 +1,20 @@
+
+#Membuat program pembayaran Toko Listrik dengan variabel : Nomor1, Nomor2, Nomor3, Nomor4, Nomor5, dan Nomor6
+print('===========> #Code By WonXTree <=========')
+print('=========================================')
+
+print('Toko Sis Elektrik')
+print('===================')
+print('===================')
+Nomor1= str (input('Masukan Nama Barang :'))
+print('===================')
+Nomor2= int (input('Masukan Harga Barang :'))
+print('===================')
+Nomor3= int (input('Masukan Jumlah Barang yang dibeli:'))
+print('===================')
+Nomor4= int (input('jumlah uang yang di bayar :'))
+print('===================')
+TOTAL= (Nomor2*Nomor3-Nomor4)
+print('===================')
+print("total kembalian: ","Rp.",TOTAL)
+print('===================')
